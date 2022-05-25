@@ -1,3 +1,66 @@
 body {
-    background: rgb(0, 128, 115);
+    background: #3A0CA3;
+    size: 315px;
+    display: block;
+    position: relative;
+    min-width: none;
+    max-width: 100%;
+    max-height:100%;
+}
+
+.container-1 {
+    display: block;
+    position: relative;
+}
+
+.container-2 {
+    display: block;
+    position: relative;
+
+
+}
+
+#firstname {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F72585;
+    /*margin-top: 20px;
+    margin-bottom: 10px;*/
+    font-size: 300px;
+    letter-spacing: -40px;
+    text-align: left;
+    font-weight: bold;
+    position: relative;
+
+    max-width: 100%;
+    min-height: fit-content;
+    max-height: 100%;
+    margin: 0em;
+    margin-top: -4%;
+    margin-left: -0.9%;
+    margin-bottom: -8%;
+
+
+
+}
+
+#lastname {
+
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F72585;
+        /*margin-top: 20px;
+        margin-bottom: 10px;*/
+        font-size: 300px;
+        letter-spacing: -40px;
+        text-align: right;
+        font-weight: bold;
+        position: relative;
+        max-width: 100%;
+        min-height: fit-content;
+        max-height: max-content;
+        margin: 0em;
+        margin-top: -8%;
+        margin-left: -4.3%;
+        margin-right: none;
+
+
 }
