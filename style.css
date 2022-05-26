@@ -1,66 +1,57 @@
 body {
     background: #3A0CA3;
-    size: 315px;
-    display: block;
+    size: 350px;
+    display:block;
     position: relative;
-    min-width: none;
-    max-width: 100%;
-    max-height:100%;
+    width: 100%;
+    height: 100%;
 }
 
-.container-1 {
-    display: block;
+.landing-name {
+    display:block;
     position: relative;
 }
 
-.container-2 {
-    display: block;
-    position: relative;
 
 
-}
 
-#firstname {
+.landing-name #firstname {
     font-family: Arial, Helvetica, sans-serif;
     color: #F72585;
-    /*margin-top: 20px;
-    margin-bottom: 10px;*/
-    font-size: 300px;
-    letter-spacing: -40px;
+    font-size: 21vw;
+    text-transform: uppercase;
+    letter-spacing: -0.15em;
     text-align: left;
     font-weight: bold;
     position: relative;
+    margin-top: 0.3em;
+    margin-left: -0.03em;
 
-    max-width: 100%;
-    min-height: fit-content;
-    max-height: 100%;
-    margin: 0em;
-    margin-top: -4%;
+    /*margin-top: -4%;
     margin-left: -0.9%;
-    margin-bottom: -8%;
+    margin-bottom: -8%;*/
 
 
 
 }
 
-#lastname {
+ .landing-name #lastname {
 
-        font-family: Arial, Helvetica, sans-serif;
-        color: #F72585;
-        /*margin-top: 20px;
-        margin-bottom: 10px;*/
-        font-size: 300px;
-        letter-spacing: -40px;
-        text-align: right;
-        font-weight: bold;
-        position: relative;
-        max-width: 100%;
-        min-height: fit-content;
-        max-height: max-content;
-        margin: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F72585;
+    font-size: 22vw;
+    text-transform: uppercase;
+    letter-spacing: -0.18em;
+    text-align: right;
+    font-weight: bold;
+    position: relative;
+    margin-top: -1.1em;
+    margin-left: 0.9em;
+    margin-right: 10em;
+        /*(margin: 0em;
         margin-top: -8%;
         margin-left: -4.3%;
-        margin-right: none;
+        margin-right: none;*/
 
 
 }
