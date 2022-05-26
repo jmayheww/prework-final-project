@@ -7,6 +7,30 @@ body {
     height: 100%;
 }
 
+
+.nav-bar {
+    background-color: none;
+    margin: 0px;
+    padding:2x;
+}
+
+.nav-headings {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1em;
+
+}
+
+.nav-headings #home, #mystory, #projects, #contact {
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    color: #fff;
+}
+
+
+
 .landing-name {
     display:block;
     position: relative;
@@ -27,9 +51,6 @@ body {
     margin-top: 0.3em;
     margin-left: -0.03em;
 
-    /*margin-top: -4%;
-    margin-left: -0.9%;
-    margin-bottom: -8%;*/
 
 
 
@@ -48,10 +69,7 @@ body {
     margin-top: -1.1em;
     margin-left: 0.9em;
     margin-right: 10em;
-        /*(margin: 0em;
-        margin-top: -8%;
-        margin-left: -4.3%;
-        margin-right: none;*/
+
 
 
 }
