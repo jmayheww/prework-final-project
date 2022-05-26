@@ -4,18 +4,43 @@ document.querySelector("body").appendChild(h2);
 
 
 
-const link = document.getElementById("home", "mystory", "projects", "contact");
+const childLinks = [...document.querySelector(".nav-headings").children];
 
-function linkColoChange (event) {
-    if (link.onmouseover) {
-        link.style.color = '#F72585';
-    } else if (link.onmouseout) {
-        link.style.color = '#F72585';
-    }else {
+
+function pageLocation () {
+    // if
+}
+for (i = 0; i < childLinks.length; i++) {
+    const link = childLinks[i].children[0];
+    link.addEventListener('mouseover', function () {
+        link.style.color = '#f72585';
+        console.log(link);
+    });
+
+    link.addEventListener('mouseout', function () {
         link.style.color = '#fff';
-    }
+        console.log(link);
+    });
+
+    link.addEventListener('click', function () {
+        link.style.color = '#f72585';
+        console.log(link);
+    });
 
 };
 
-link.addEventListener('mouseover', linkColorChange);
 
+// ("home", "mystory", "projects", "contact");
+
+// function linkColoChange (event) {
+//     if (link.onmouseover) {
+//         link.style.color = '#F72585';
+//     } else if (link.onmouseout) {
+//         link.style.color = '#F72585';
+//     }else {
+//         link.style.color = '#fff';
+//     }
+
+// };
+
+// link.addEventListener('mouseover', linkColorChange);*/
