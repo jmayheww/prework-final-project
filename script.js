@@ -3,11 +3,40 @@ h2.textContent = "This content added by Javascript";
 document.querySelector("body").appendChild(h2);
 
 
+// const p = document.createElement("p");
+// p.innerHTML = "test text";
+// document.querySelector("body").appendChild(p);
+// p.style.visibility = "hidden";
+
+const p = document.createElement("p");
+p.innerHTML = "test text";
+document.querySelector("body").appendChild(p);
+
+const firstName = document.getElementById("firstname");
+const lastName = document.getElementById("lastname");
+
+
+
+  function show(element) {
+        p.style.visibility = 'visible';
+  };
+
+  function hide(element) {
+      p.style.visibility = 'hidden';
+  };
+
+  firstName.addEventListener('mouseover', show);
+  firstName.addEventListener('mouseout', hide);
+  lastName.addEventListener('mouseover', show);
+  lastName.addEventListener('mouseout', hide);
+
+
+
 
 const childLinks = [...document.querySelector(".nav-headings").children];
 
 
-function pageLocation () {
+function pageLocation() {
     // if
 }
 for (i = 0; i < childLinks.length; i++) {
@@ -27,20 +56,4 @@ for (i = 0; i < childLinks.length; i++) {
         console.log(link);
     });
 
-};
-
-
-// ("home", "mystory", "projects", "contact");
-
-// function linkColoChange (event) {
-//     if (link.onmouseover) {
-//         link.style.color = '#F72585';
-//     } else if (link.onmouseout) {
-//         link.style.color = '#F72585';
-//     }else {
-//         link.style.color = '#fff';
-//     }
-
-// };
-
-// link.addEventListener('mouseover', linkColorChange);*/
+}
