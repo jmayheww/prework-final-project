@@ -1,6 +1,6 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by Javascript";
-document.querySelector("body").appendChild(h2);
+// const h2 = document.createElement("h2");
+// h2.textContent = "This content added by Javascript";
+// document.querySelector("body").appendChild(h2);
 
 
 // const p = document.createElement("p");
@@ -9,8 +9,15 @@ document.querySelector("body").appendChild(h2);
 // p.style.visibility = "hidden";
 
 const p = document.createElement("p");
-p.innerHTML = "test text";
-document.querySelector("body").appendChild(p);
+p.innerHTML = "Welcome to my personal webpage, <br>a vibrant and exciting testament to the <br>learning and striving that propels my coding journey.";
+document.querySelector(".dom-insert").appendChild(p);
+p.style.color = "#fff";
+p.style.textAlign=  "center";
+p.style.marginLeft = "50vw";
+p.style.marginTop = "18vh";
+p.style.marginBottom = "-7em";
+p.style.font = "bold 1.3em  sans-serif";
+p.style.textTransform = "lowercase";
 
 const firstName = document.getElementById("firstname");
 const lastName = document.getElementById("lastname");
