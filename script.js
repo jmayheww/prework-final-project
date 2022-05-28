@@ -12,7 +12,7 @@ const p = document.createElement("p");
 p.innerHTML = "Welcome to my personal webpage, <br>a vibrant and exciting testament to the <br>learning and striving that propels my coding journey.";
 document.querySelector(".dom-insert").appendChild(p);
 p.style.color = "#fff";
-p.style.textAlign=  "center";
+p.style.textAlign = "center";
 p.style.marginLeft = "50vw";
 p.style.marginTop = "18vh";
 p.style.marginBottom = "-7em";
@@ -24,18 +24,18 @@ const lastName = document.getElementById("lastname");
 
 
 
-  function show(element) {
-        p.style.visibility = 'visible';
-  };
+function show(element) {
+    p.style.visibility = 'visible';
+};
 
-  function hide(element) {
-      p.style.visibility = 'hidden';
-  };
+function hide(element) {
+    p.style.visibility = 'hidden';
+};
 
-  firstName.addEventListener('mouseover', show);
-  firstName.addEventListener('mouseout', hide);
-  lastName.addEventListener('mouseover', show);
-  lastName.addEventListener('mouseout', hide);
+firstName.addEventListener('mouseover', show);
+firstName.addEventListener('mouseout', hide);
+lastName.addEventListener('mouseover', show);
+lastName.addEventListener('mouseout', hide);
 
 
 
@@ -64,3 +64,4 @@ for (i = 0; i < childLinks.length; i++) {
     });
 
 }
+

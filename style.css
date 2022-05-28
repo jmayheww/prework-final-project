@@ -1,7 +1,7 @@
 body {
     background: #3A0CA3;
     size: 350px;
-    display:block;
+    display: block;
     position: relative;
     width: 98vw;
     max-height: 90vh;
@@ -13,7 +13,7 @@ body {
 .nav-bar {
     background-color: none;
     margin: 0px;
-    padding:2x;
+    padding: 2x;
 }
 
 .nav-headings {
@@ -24,9 +24,12 @@ body {
 
 }
 
-.nav-headings #home, #mystory, #projects, #contact {
+.nav-headings #home,
+#mystory,
+#projects,
+#contact {
     text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: lowercase;
     color: #fff;
 }
@@ -34,7 +37,7 @@ body {
 
 
 .landing-name {
-    display:block;
+    display: block;
     position: relative;
 
 }
@@ -59,7 +62,7 @@ body {
 
 }
 
- .landing-name #lastname {
+.landing-name #lastname {
 
     font-family: Arial, Helvetica, sans-serif;
     color: #F72585;
@@ -74,5 +77,59 @@ body {
     margin-right: 10em;
     margin-bottom: -0.08em;
 
+
+}
+
+table{
+    border-collapse: collapse;
+    margin: 20vh 25vw;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+th {
+    background-color: #F72585;
+    color: #FFF;
+    text-align: left;
+    padding: 12px 15px;
+
+}
+
+tr {
+    background-color: #7209B7;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+
+}
+
+tr:nth-of-type(even) {
+    background-color: #B298FF;
+}
+
+tr:last-of-type {
+    border-bottom: 2px solid #98006a
+}
+
+tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+tr:hover {
+    background-color: #F72585;}
+
+.employment-history th {
+    padding-left: 25px;
+    text-align: left;
+}
+
+#table-body td {
+    padding-left: 25px;
+    padding-right: 30px;
 
 }
