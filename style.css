@@ -80,7 +80,7 @@ body {
 
 }
 
-table{
+table {
     border-collapse: collapse;
     margin: 20vh 25vw;
     font-size: 0.9em;
@@ -121,7 +121,8 @@ tr.active-row {
 }
 
 tr:hover {
-    background-color: #F72585;}
+    background-color: #F72585;
+}
 
 .employment-history th {
     padding-left: 25px;
@@ -132,4 +133,51 @@ tr:hover {
     padding-left: 25px;
     padding-right: 30px;
 
+}
+
+.contact-icons {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+    list-style: none;
+    position: relative;
+    margin-top: 60vh;
+}
+
+i {
+    background-color: #3A0CA3;
+    display: inline-block;
+    justify-content: space-around;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 36px;
+    color: #FFF;
+    list-style: none;
+
+}
+
+header {
+    font-size: 2em;
+    margin-top: 2em;
+    display: flex;
+    border-bottom: 1px solid white;
+    width: 28vw;
+    color: #fff;
+}
+
+p {
+    color: #009879;
+}
+
+.header-1 {
+    font-size: 2em;
+    margin-top: 2em;
+    display: flex;
+    border-bottom: 1px solid white;
+    width: 18vw;
+    color: #fff;
 }
